@@ -1,0 +1,563 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("backgroundapplication.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* This is the CSS for the phone shape. */ 
+
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+  border: 5px solid #d9dbdc;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 50px;
+  height: 877px;
+  width: 423px;
+  position: relative;
+  margin: 30px auto;  
+  transform: scale(0.8);
+}
+
+.iphone-top {
+  padding: 5px 110px 40px;
+  position: relative; 
+} 
+  .speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+  }
+  
+  .camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+  }
+  
+  .sensor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #333;
+    margin-top: -5px;
+    border-radius: 50%;
+  }
+}
+
+.top-bar, .bottom-bar {
+  display: block;
+  width: 423px;
+  height: 15px;
+  position: absolute;
+  left: -5px;
+  border: {
+    left: 5px solid #BBB;
+    right: 5px solid #BBB;
+  }
+}
+  
+}
+.top-bar {
+  top: 65px;
+}
+
+.bottom-bar {
+  bottom: 65px;
+}
+
+.iphone-bottom {
+  padding: 10px 0 0;
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background: #ccc;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+    position: relative;
+    &:after {
+      content: ""; 
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+    } 
+  }
+}
+
+
+
+/* End of Phone CSS */ 
+
+
+
+/* The recurring CSS goes here */ 
+
+
+.centercrush-background {
+  background-color: white; 
+  margin-top: 145px; 
+  height: 145px;
+  opacity: 0.4;  
+}
+
+.iphone-screen {
+  background-image: url("images/example 2.png");
+  border: 1px solid #fff; 
+  height: 677px;
+  width: 375px;
+  margin: 0 auto;
+  border: 2px solid rgba(0,0,0,0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-button {
+  height: 50px;
+  margin-left: 70px; 
+  position: absolute;
+  bottom: 125px; 
+}
+
+.home-button {
+  height: 50px;
+  margin-left: 165px; 
+  position: absolute;
+  bottom: 125px; 
+}
+
+.back-button {
+  height: 50px;
+  margin-left: 265px;
+  position: absolute;
+  bottom: 125px;   
+}
+
+
+/* Login Stuff */ 
+
+
+.login-background {
+  position: relative
+  display: block;
+  background-color: white;
+  opacity: 1;
+  height: 677px;
+  width: 375px;
+  align-items: center;
+}
+
+.centerparcslogo {
+  height: 80px;
+  top: 160px;
+  left: 150px;
+  position: absolute;
+}
+
+.centercrushlogo {
+  position: absolute;
+  top: 250px;
+  height: 100px;
+  left: 40px; 
+  right:50px; 
+}
+
+.button-login {
+  border-radius: 12px;
+  background-color: #FF457C;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block;
+  font-size: 16px; 
+  margin-top: 25px;
+  margin-left: 25%; 
+  padding-left: 30px; 
+  width: 50%;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px grey; 
+}
+
+
+/* Home Page */ 
+
+
+.home-background {
+  position: relative
+  display: block;
+  height: 677px;
+  width: 375px;
+  align-items: center;
+}
+
+.button-play {
+  border-radius: 12px;
+  background-color: #FF457C;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block;
+  font-size: 25px; 
+  margin-top: 25px;
+  margin-left: 25%;
+  padding-left: 46px;   
+  width: 50%;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px grey; 
+}
+
+.profile {
+  height: 80px;
+}
+
+.button-profile {
+  border-radius: 12px;
+  background-color: #FF457C;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block; 
+  margin-top: 25px;
+  margin-left: 25%;  
+  width: 22.5%;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.theleaderboard {
+  height: 80px;
+}
+
+.button-leaderboard {
+  border-radius: 12px;
+  background-color: #FF457C;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block; 
+  margin-top: 25px;
+  margin-left: 5%;  
+  width: 22.5%;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+
+/* Profile Page */ 
+
+
+.profile-container {
+  height: 500px; 
+  position: relative; 
+  width: 75%; 
+  margin-top: 60px; 
+  margin-left: 12.5%; 
+  border-radius: 12px;
+  background-color: #FF457C;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px grey;
+  padding-top: 30px; 
+  text-align: center; 
+}
+
+.music {
+  height: 50px;
+  border-radius: 12px;
+  background-color: #fff;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block; 
+  margin-top: 25px; 
+  margin-left: -5%;  
+  width: 18%;
+  box-shadow: 2px 2px 5px grey; 
+}
+
+.info-button {
+  height: 50px;
+  width: 18%;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block;
+  margin-left: -106px; 
+  position: absolute;
+  bottom: 75px; 
+}
+
+.colorblind-button {
+  height: 50px;
+  width: 18%;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-decoration: none; 
+  color: white;  
+  display: inline-block;
+  margin-left: -25px; 
+  position: absolute;
+  bottom: 75px; 
+}
+
+.notification-button {
+  height: 50px;
+  width: 18%;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px grey;
+  text-decoration: none; 
+  color: white;  
+  
+  margin-left: 55px; 
+  position: absolute;
+  bottom: 75px;    
+}
+
+
+/* Leaderboard Page */ 
+
+.leaderboard-table {
+  margin-left: 10%; 
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 10px;
+}
+
+.leaderboard-table, td, th {
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-collapse: collapse;
+  border: 2px solid white; 
+  border-radius: 10px;
+}
+
+
+/* Game Stuff */ 
+
+
+.grid {
+  margin-top: 30px; 
+  height: 450px;
+  width: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 69, 124, 0.3);
+  padding:5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px white;
+  color: #85796b;  
+}
+
+.grid div { 
+  height: 50px;
+  width: 50px;
+}
+
+h3 {
+ font-family: "Montserrat", sans-serif;
+ text-transform: uppercase;
+}
+
+h1 {
+ font-family: "Montserrat", sans-serif;
+ text-transform: uppercase;
+ margin-top: -10px;
+}
+
+.invisible {
+    background-color: white;
+}
+
+.score-board {
+  background-color:#fff;
+  border-radius: 10px;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#FF457C,  #ffb3c9);
+  box-shadow: 2px 2px 5px white;
+  color: #fff;
+}
+
+video {
+    height: auto;
+    min-height:100%;
+    width: 100%;
+    min-width: 100%;
+}
+.video_holder {
+    height: 100%;
+    min-height:100%;
+    width: 100%;
+    min-width: 100%;
+}
+
+/*Down here is the code for making the text boxes look nice*/
+
+@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
+body {
+  font-family: 'Muli', sans-serif;
+  background: url("https://i.imgur.com/ANWDv62.png");
+}
+
+:focus{outline: none;}
+
+/* necessary to give position: relative to parent. */
+input[type="text"] {
+  color: #333; 
+  width: 100%; 
+  box-sizing: border-box; 
+  letter-spacing: 1px;}
+
+:focus{outline: none;}
+
+.col-3{
+  float: left; 
+  width: 50%; 
+  margin-top: 300px; 
+  margin-left: 95px; 
+  position: relative;} 
+
+.col-4{
+  float: left; 
+  width: 50%; 
+  margin-top: 25px; 
+  margin-left: 95px; 
+  position: relative;
+} 
+
+  /* necessary to give position: relative to parent. */
+input[type="text"]{
+  font: 15px/24px "Lato", Arial, sans-serif; 
+  color: #333; width: 100%; 
+  box-sizing: border-box; 
+  letter-spacing: 1px;}
+
+.effect-12 ~ .focus-bg{
+  position: absolute; 
+  left: 50%; top: 0; 
+  width: 0; height: 100%; 
+  background-color: #ededed; 
+  transition: 0.3s; 
+  z-index: -1;
+}
+
+.effect-12:focus ~ .focus-bg {
+  transition: 0.3s; 
+  width: 100%; 
+  left: 0;
+}
+
+.effect-21 {
+  border: 1px solid #FF457C; 
+  padding: 7px 14px; 
+  transition: 0.4s; 
+  background: transparent;
+}
+
+.effect-21 ~ .focus-border:before,
+.effect-21 ~ .focus-border:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; right: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #4caf50; 
+  transition: 0.2s; 
+  transition-delay: 0.2s;
+}
+
+.effect-21 ~ .focus-border:after {
+  top: auto; 
+  bottom: 0; 
+  right: auto; 
+  left: 0; 
+  transition-delay: 0.6s;
+}
+.effect-21 ~ .focus-border i:before,
+.effect-21 ~ .focus-border i:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; left: 0; 
+  width: 2px; 
+  height: 0; 
+  background-color: #4caf50; 
+  transition: 0.2s;
+}
+.effect-21 ~ .focus-border i:after {
+  left: auto; 
+  right: 0; 
+  top: auto; 
+  bottom: 0; 
+  transition-delay: 0.4s;
+}
+.effect-21:focus ~ .focus-border:before,
+.effect-21:focus ~ .focus-border:after,
+
+.has-content.effect-21 ~ .focus-border:before,
+.has-content.effect-21 ~ .focus-border:after {
+  width: 100%; 
+  transition: 0.2s; 
+  transition-delay: 0.6s;
+}
+
+.effect-21:focus ~ .focus-border:after,
+
+.has-content.effect-21 ~ .focus-border:after {
+  transition-delay: 0.2s;
+}
+.effect-21:focus ~ .focus-border i:before,
+.effect-21:focus ~ .focus-border i:after,
+
+.has-content.effect-21 ~ .focus-border i:before,
+
+.has-content.effect-21 ~ .focus-border i:after {
+  height: 100%; 
+  transition: 0.2s;
+}
+.effect-21:focus ~ .focus-border i:after,
+
+.has-conten.effect-21 ~ .focus-border i:after {
+  transition-delay: 0.4s;
+}
+.effect-21 ~ label {
+  position: absolute; 
+  left: 14px; 
+  width: 100%; 
+  top: 10px; 
+  color: #aaa; 
+  transition: 0.3s; 
+  letter-spacing: 0.5px;
+  pointer-events: none; 
+}
+.effect-21:focus ~ label, .has-content.effect-21 ~ label {
+  top: -18px; 
+  left: 0; 
+  font-size: 12px; 
+  color: #4caf50; 
+  transition: 0.3s;
+}
